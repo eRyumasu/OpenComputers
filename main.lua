@@ -10,7 +10,7 @@ local items = {
   {"IC2:itemIngot", 0},
   {"IC2:itemIngot", 1},
   {"minecraft:gold_ingot", 0},
-  {"minecraft:nether_star", 0},
+  {"minecraft:coal", 0},
   {"minecraft:diamond", 0},
   {"dwcity:SmallPalladium", 0},
   {"dwcity:SmallNeptunium", 0}
