@@ -232,7 +232,7 @@ while true do
   bridge.clear()
   if me_a then
     addAllIcons()
-    y = 32
+    y = 30
     tps = require("tps")
     per_second = counter.getAverage() * tps()
     if per_second then
