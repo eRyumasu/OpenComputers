@@ -232,7 +232,7 @@ while true do
   bridge.clear()
   if me_a then
     addAllIcons()
-    y = 32
+    y = 17
     tps = require("tps")
     per_second = counter.getAverage() * tps()
     if per_second then
@@ -243,15 +243,6 @@ while true do
     for i = 2, #items do
       y = y + 15
       addText(25, y, numR(getSize(items[i][1], items[i][2])), colors.item_size)
---      item_number = getSize(items[i][1], items[i][2])
---      if item_number / 1000 <= 1 then
---        nm = string.format("%.3f", tostring(item_number))
---      elseif item_number / 1000000 >= 1 then
---        nm = string.format("%.3f", tostring(item_number / 1000000)) .. "m"
---      else
---        nm = string.format("%.1f", tostring(item_number / 1000)) .. "k"
---      addText(25, y, mn, colors.item_size)
---      end
     end
   end
   if average then
