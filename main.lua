@@ -132,7 +132,7 @@ function componentsOnScreen()
 end
 
 function addAllIcons()
-  y = 17
+  y = 25
   for i = 1, #items do
     y = y + 15
     addIcon(5, y, items[i][1], items[i][2])
