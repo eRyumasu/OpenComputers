@@ -12,8 +12,8 @@ local items = {
   {"minecraft:gold_ingot", 0},
   {"minecraft:nether_star", 0},
   {"minecraft:diamond", 0},
-  {"IC2:itemPlutonium", 0},
-  {"IC2:itemRubber", 0}
+  {"dwcity:SmallPalladium", 0},
+  {"dwcity:SmallNeptunium", 0}
 }
 
 local players = {
