@@ -59,7 +59,7 @@ local colors = {
 
 function numR(n)
   if n / 1000 <= 1 then
-    av = string.format("%.3f", tostring(n))
+    av = tostring(n)
   elseif n / 1000000 >= 1 then
     av = string.format("%.3f", tostring(n / 1000000)) .. "M"
   else
